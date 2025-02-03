@@ -1,0 +1,41 @@
+{{ 'component-tags-pills.css' | asset_url | stylesheet_tag }}
+{% assign tagpills = section.blocks %}
+<ul class="tag-pills">
+  {% for block in section.blocks %}
+    {% assign blog_item = block.settings.blog_item %}
+    {% if blog_item.url and blog_item.title %}
+      <li>
+        <a href="{{ blog_item.url }}">{{ blog_item.title }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>
+
+{% schema %}
+{
+  "name": "Blog tags",
+   "class": "section",
+  "settings": [
+    
+  ],
+  "blocks": [
+    {
+      "type": "blog",
+      "name": "Blog type",
+      "settings": [
+        {
+          "type": "blog",
+          "id": "blog_item",
+          "label": "Select blog"
+        }
+      ]
+    }
+  ],
+    "presets": [
+      {
+        "name": "Blog tags",
+        "category": "Custom"
+      }
+    ]
+}
+{% endschema %}

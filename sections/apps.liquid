@@ -1,0 +1,60 @@
+<div class="{{ section.settings.custom_class }}" {% if section.settings.bgimg != blank %}
+      style="background-image:url('{{ section.settings.bgimg | image_url }}')"
+    {% endif %}>
+  <div class=" {% if section.settings.include_margins %}page-width{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
+   {% if section.settings.sec_heading != blank %}
+     <div class="app-text">{{ section.settings.sec_heading }}</div>
+    {% endif %}
+    {% if section.settings.html != blank %}
+    <div class="app-html">{{ section.settings.html }}</div>
+      {% endif %}
+    {%- for block in section.blocks -%}
+      {% render block %}
+    {%- endfor -%}
+  </div>
+</div>
+{% schema %}
+{
+  "name": "t:sections.apps.name",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "include_margins",
+      "default": true,
+      "label": "t:sections.apps.settings.include_margins.label"
+    },
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom class"
+    },
+    {
+       "type": "image_picker",
+      "id": "bgimg",
+      "label": "Background image"
+    },
+    {
+      "type": "richtext",
+      "id": "sec_heading",
+      "label": "Section heading"
+    },
+    {
+      "type": "html",
+      "id": "html",
+      "label": "Custom HTMl"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "t:sections.apps.presets.name"
+    }
+  ]
+}
+{% endschema %}

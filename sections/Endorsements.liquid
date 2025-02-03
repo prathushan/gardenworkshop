@@ -1,0 +1,95 @@
+  <!-- Include Slick CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+
+  <!-- Include Slick JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+ <script src="{{ 'slick-slider.js' | asset_url }}" defer="defer"></script>
+<div class="endo-blk {{ section.settings.custom_class }}" {% if section.settings.bgimg != blank %} style="background-image:url('{{ section.settings.bgimg | image_url }}')" {% endif %}>
+  <div class="endo-blk-wrap">
+    {% if section.settings.image != blank %}
+    <div class="endo-blk-img">
+      {{ section.settings.image | image_url: width: 800 | image_tag }}
+    </div>
+    {% endif %}
+    <div class="endo-blk-slider {% if section.settings.image == blank %} no-img{% endif %}">
+      <div class="heading">{{ section.settings.heading }}</div>
+      <div class="endo-blk-slider-wrap" data-slides="{{ section.settings.slidesPerView }}">
+        {%- for block in section.blocks -%}
+          <div class="slider-item">
+             <div class="slider-item-wrap">
+            <div class="cta">{{ block.settings.content }}</div>
+            <div class="endo-title">{{ block.settings.title }}</div>
+             {% if block.settings.author != blank %}
+            <div class="pic">{{ block.settings.author | image_url: width: 129 | image_tag }}</div>
+               {% endif %}
+             </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Endorsements",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bgimg",
+      "label": "Background image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+     {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom class"
+    },
+    {
+      "type": "richtext",
+      "id": "heading",
+      "label": "Heading"
+    },
+     {
+      "type": "text",
+      "id": "slidesPerView",
+      "label": "slidesPerView",
+      "default": "1"
+    },
+  ],
+  "blocks": [
+    {
+      "type": "testimonials",
+      "name": "Testimonials",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+        },
+        {
+          "type": "richtext",
+          "id": "title",
+          "label": "Title",
+          "default": "<p>Title</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "author",
+          "label": "Profile pic"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Endorsements",
+      "category": "testimonials"
+    }
+  ]
+}
+{% endschema %}

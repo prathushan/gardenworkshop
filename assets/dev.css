@@ -1,0 +1,2561 @@
+.cool-flowers-from-seed .home-mb {
+  background-color: #f2f2f2 !important;
+}
+.cool-flowers-from-seed .Course_time .course-timings-blk h2 {
+  margin: 0;
+  color: black;
+  font-size: 48px;
+}
+.cool-flowers-from-seed .course-instruct .rte ul li {
+  list-style-type: disc;
+}
+.cool-flowers-from-seed .course-instruct .rte ul {
+  padding-left: 25px;
+}
+.cool-flowers-from-seed .course-include .rte ul {
+  padding-left: 25px;
+}
+
+.cool-flowers-from-seed .multicolumn .title {
+  padding-top: 5%;
+}
+.cool-flowers-from-seed .Course_time .course-timings-blk .course-timings-meta {
+  margin-left: 20px;
+}
+
+.cool-flowers-from-seed
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.cool-flowers-from-seed
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  > * {
+  display: inline-flex;
+}
+.cool-flowers-from-seed
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #b9355d;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #b9355d;
+  color: white;
+}
+
+.cool-flowers-from-seed
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item
+  span {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.cool-flowers-from-seed
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item {
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+.cool-flowers-from-seed .home-mb .image-with-text__text--caption {
+  color: #d4a418;
+}
+
+.cool-flowers-from-seed .home-mb .image-with-text__text--caption {
+  border-color: #d4a418;
+}
+
+.cool-flowers-from-seed .text-15 {
+  line-height: 21px;
+}
+
+.cool-flowers-from-seed .faq-blk .faq-wrap-item {
+  border: 1px solid #d9d9d9;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.cool-flowers-from-seed .faq-section-1 .faq-title .faq-button {
+  font-size: 30px;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 700;
+  line-height: 39px;
+}
+.cool-flowers-from-seed .faq-section-2 .faq-title .faq-button {
+  font-size: 19px;
+  font-family: "Lexend Deca", serif;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+.cool-flowers-from-seed .review-block:before {
+  background-color: linear-gradient(180deg, #f2bdee73, #466c0d 64%);
+}
+.cool-flowers-from-seed .review-block:before {
+  background-image: linear-gradient(
+    180deg,
+    rgba(116, 167, 48, 0.68) 0%,
+    rgba(67, 105, 4, 0.98) 64%
+  );
+}
+.cool-flowers-from-seed .home-mb .media {
+  filter: saturate(0%);
+}
+
+.cool-flowers-from-seed .home-img-txt .h1 {
+  max-width: 450px;
+  margin-bottom: 0;
+}
+/* .custom-product .course-timings .course-timings-blk {
+    display: block; 
+    margin-bottom: 40px; 
+    gap: 0; 
+    margin-bottom: 50px;
+} */
+
+.cool-flowers-from-seed .home-mb .button {
+  color: black !important;
+}
+
+/* .custom-product.course-timings{
+Background-color:#4c564b;
+} */
+
+.preparing-to-sell .flowerlist-ul-4 ul li {
+  position: relative;
+}
+
+.preparing-to-sell .flowerlist-ul-4 ul li:before {
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/bouquet.png?v=1729064590);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.preparing-to-sell .faq-title .faq-button {
+  font-size: 19px;
+  font-family: "Lexend Deca", serif;
+  font-weight: 600;
+  line-height: 25px;
+}
+
+/* .preparing-to-sell .review-block{
+background-image: linear-gradient(180deg, rgba(75, 86, 75, 0.7) 0%, #4b564b 64%);
+
+} */
+
+.preparing-to-sell .review-block:before {
+  background-image: linear-gradient(
+    180deg,
+    rgba(75, 86, 75, 0.7) 0%,
+    #4b564b 64%
+  );
+}
+
+.preparing-to-sell .custom-hero .Hero-text-preparing-to-sell {
+  font-size: 51px;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 700;
+  line-height: 51px;
+  font-style: italic;
+}
+
+.preparing-to-sell .custom-hero .caption-text-preparing-to-sell {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  font-style: italic;
+}
+
+.preparing-to-sell .faq-container h2 {
+  color: white !important;
+}
+
+.preparing-to-sell .text-15 {
+  line-height: 21px;
+  text-align: left;
+}
+
+.preparing-to-sell .home-mb .media {
+  filter: brightness(0) invert(1);
+}
+
+.preparing-to-sell .home-mb .background-transparent {
+  color: #fff;
+}
+
+.preparing-to-sell .home-mb .image-with-text__text--caption {
+  color: #fff;
+  border-left: 3px solid #fff;
+}
+
+.preparing-to-sell .home-mb .button {
+  color: black !important;
+}
+
+.preparing-to-sell .customlist-ul .h1 {
+  font-weight: 700;
+}
+
+.preparing-to-sell .course-timings-meta {
+  display: none;
+}
+
+.preparing-to-sell .course-timings blockquote {
+  background-color: #4c564b;
+  text-transform: none;
+  font-size: 16px;
+}
+
+.preparing-to-sell .course-timings-blk {
+  align-items: center;
+  justify-content: center;
+  color: #4c564b;
+}
+
+.preparing-to-sell ul li:before {
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/bouquet.webp?v=1728902150);
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: saturate(0%);
+}
+
+.preparing-to-sell .grid__item .image-with-text__heading {
+  font-weight: 700;
+}
+
+.preparing-to-sell .flowerlist-ul-4 {
+  background-image: linear-gradient(90deg, #4b564b 15%, #fff0 15%) !important;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: unset;
+  background-position: bottom right;
+}
+
+.preparing-to-sell .course-timings .title {
+  color: #4c564b !important;
+  text-align: center;
+  position: relative;
+  margin: 0 250px;
+}
+
+.preparing-to-sell .course-timings .title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -9px;
+  width: 100%;
+  height: 4px;
+  background-color: #74a730;
+}
+
+/* profitable-flower-farming */
+.profitable-flower-farming .course-timings .course-timings-blk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* Collectives-101 */
+.collectives-101 ul li:before {
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/icon.webp?v=1728972784);
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: saturate(0%);
+}
+.collectives-101 .flowerlist-ul-4 ul li {
+  position: relative;
+}
+
+.collectives-101 .flowerlist-ul-4 ul li:before {
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/icon.webp?v=1728972784);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: -5%;
+  left: 0;
+}
+.collectives-101 .customlist-ul ul li {
+  position: relative;
+}
+
+.collectives-101 .customlist-ul ul li:before {
+  content: "";
+  background-image: url("https://cdn.shopify.com/s/files/1/0618/0500/2925/files/square-check-regular-yellow.svg?v=1729000875");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: -5%;
+  left: 0;
+}
+
+.collectives-101 .course-timings .title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -9px;
+  width: 100%;
+  height: 4px;
+  background-color: #4f7777;
+}
+.collectives-101 .course-timings .title {
+  color: #4c564b !important;
+  position: relative;
+}
+.collectives-101 .course-timings blockquote {
+  background-color: #327174;
+  max-width: 330px;
+  font-size: 16px;
+  text-transform: none;
+}
+.collectives-101 .course-timings .title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #087174 !important;
+  text-align: center;
+  align-item: center !important;
+}
+.collectives-101 .faq-container h2 {
+  color: #087174 !important;
+}
+.collectives-101 .course-timings-meta {
+  display: none;
+}
+.collectives-101 .course-timings .title {
+  align-items: center;
+  justify-content: center;
+  color: #4c564b;
+  display: block;
+}
+.collectives-101 .course-timings-blk .course-timings-meta {
+  display: none;
+}
+.collectives-101 .home-mb p {
+  color: white;
+}
+.collectives-101 .Section_02_img {
+  margin-top: 0;
+  padding: 0px;
+  margin: 0px;
+}
+.collectives-101 .home-mb .image-with-text__text--caption {
+  color: white;
+  border-color: white;
+}
+.collectives-101 .review-block:before {
+  background-image: linear-gradient(
+    180deg,
+    rgba(8, 113, 116, 0.68) 0%,
+    #324b4c 85%
+  );
+}
+.collectives-101 .text-15 {
+  line-height: 21px;
+}
+
+.collectives-101 .Section_02_img p {
+  color: white;
+  font-size: 26px;
+  font-weight: 300;
+  font-family: "Open Sans", Arial, sans-serif;
+  padding-left: 5%;
+}
+
+.collectives-101 .flowerlist-ul-4 {
+  background-image: linear-gradient(90deg, #327174 15%, #fff0 15%) !important;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-attachment: unset;
+  background-position: bottom right;
+}
+
+.collectives-101 .course-timings .course-timings-blk {
+  display: block;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
+  gap: 0;
+  text-align: center;
+}
+.collectives-101 .course-timings .course-timings-blk .flex-row {
+  display: none;
+}
+
+.collectives-101 .course-timings .title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -8px;
+  width: 100%;
+  height: 4px;
+  background-color: #324b4c;
+}
+.collectives-101 .slider-mobile-gutter {
+  margin-top: 5% !important;
+}
+
+.collectives-101 .course-timings .title {
+  color: #327174 !important;
+  position: relative;
+  margin: 0 250px;
+}
+
+.collectives-101 .home-mb .image-with-text .grid__item img {
+  filter: brightness(0) invert(1);
+}
+
+.collectives-101 .home-mb .button {
+  color: black !important;
+}
+
+/* .@media screen and (min-width: 750px) {
+   .image-with-text__content--desktop-left>*{
+  color:white;
+} */
+
+.preparing-to-sell .course-timings .title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -9px;
+  width: 100%;
+  height: 4px;
+  background-color: #4f7777;
+}
+
+.preparing-to-sell .course-timings .title {
+  color: #4c564b !important;
+  position: relative;
+}
+
+/* jennie-love-page */
+
+.jennie-love .home-mb .media {
+  filter: brightness(0) invert(1);
+}
+.jennie-love .home-mb .button {
+  color: black !important;
+}
+
+.jennie-love .home-mb .background-transparent {
+  color: #fff;
+}
+
+.jennie-love .home-mb .image-with-text__text--caption {
+  color: white;
+  border-color: white;
+}
+
+.jennie-love .review-block:before {
+  background-image: linear-gradient(
+    180deg,
+    rgba(131, 78, 96, 0.61) 0%,
+    #834e60 64%
+  );
+}
+
+.jennie-love .text-15 {
+  line-height: 21px;
+  text-align: left;
+}
+
+.jennie-love .faq-container h2 {
+  color: white !important;
+}
+
+.jennie-love .flowerlist-ul-4 {
+  background-image: linear-gradient(90deg, #834e60 15%, #fff0 15%),
+    url(/cdn/shop/files/peony1_1.webp?v=1728456276) !important;
+}
+
+.jennie-love .custom-hero .Hero-text-jennie-love {
+  font-size: 51px !important;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 700 !important;
+  line-height: 51px;
+  font-style: italic;
+  color: #fff;
+}
+
+.jennie-love .ul-check .h1 {
+  font-weight: 700;
+  line-height: 48px;
+}
+.jennie-love .course-timings .course-timings-blk {
+  display: block;
+  justify-content: space-between;
+  width: 100%;
+  /* margin: 0 auto; */
+  gap: 0;
+  text-align: center;
+}
+.jennie-love .course-timings .course-timings-blk .flex-row {
+  display: none;
+}
+
+/* .jennie-love .course-timings h2 {
+    font-family: 'Abhaya Libre', Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #834e60 !important;
+    text-align: center;
+} */
+
+.jennie-love .course-timings .title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -9px;
+  width: 100%;
+  height: 4px;
+  background-color: #834e60;
+}
+
+.jennie-love .course-timings .title {
+  color: #834e60 !important;
+  position: relative;
+  margin: 0 250px;
+}
+
+.jennie-love .course-timings .grid--3-col-desktop {
+  background-color: RGBA(255, 255, 255, 0) !important;
+  max-width: 1000px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.jennie-love .course-timings blockquote {
+  font-weight: 600;
+  font-size: 16px;
+  background-color: #4b564b;
+  border-radius: 0 18px 18px 18px;
+  overflow: hidden;
+  height: 40px;
+  padding-top: 6px !important;
+  padding-right: 5px !important;
+  padding-bottom: 6px !important;
+  padding-left: 15px !important;
+  margin-top: -20px !important;
+  margin-bottom: 15px !important;
+  max-width: 330px;
+}
+
+.jennie-love .course-timings .button {
+  display: none;
+}
+
+/*seed-starting-made-easy-online-course  */
+.seed-starting .hero-product p {
+  line-height: 29px;
+  font-size: 19px;
+}
+.seed-starting .course-timings blockquote {
+  font-size: 16px;
+  text-transform: none;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+.seed-starting .home-mb .image-with-text__text--caption {
+  color: #436904;
+  border-left: 3px solid #436904;
+}
+
+.seed-starting .home-mb .button {
+  color: black !important;
+}
+.seed-starting .home-img-txt cproduct-img-txt h2 {
+  margin-top: 0;
+  margin-bootom: 0;
+}
+.seed-starting .review-block:before {
+  background-image: linear-gradient(
+    180deg,
+    rgba(116, 167, 48, 0.68) 0%,
+    rgba(67, 105, 4, 0.98) 64%
+  );
+}
+
+.seed-starting
+  .image-with-text__content
+  > :first-child:is(.image-with-text__heading) {
+  margin-bottom: 0;
+}
+.seed-starting .faq-wrap-item {
+  background-color: #f5f6f0 !important;
+}
+.seed-starting .text-15 {
+  line-height: 21px;
+}
+
+.seed-starting .course-timings {
+  text-align: center;
+}
+
+.seed-starting .course-timings .title {
+  color: #436904 !important;
+  margin: auto;
+  border-bottom: 4px solid #74a730;
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+.seed-starting .course-timings .multicolumn-list h3 {
+  line-height: 1.2em;
+  font-size: 20px;
+  font-weight: 600;
+  color: #333;
+  font-family: Open Sans, Arial, sans-serif;
+  margin-bottom: 10px;
+  text-align: left !important;
+}
+
+.seed-starting .course-timings .multicolumn-list p {
+  text-align: left !important;
+}
+
+.seed-starting .customlist-ul ul li {
+  position: relative;
+  padding-left: 45px;
+  list-style: none;
+}
+
+.seed-starting .customlist-ul ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 20%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+  background: url("https://cdn.shopify.com/s/files/1/0618/0500/2925/files/square-check-regular-green_2.svg?v=1729236163")
+    no-repeat center center;
+  background-size: contain;
+}
+
+/* flower-farming-school-online-with-lisa-mason-ziegler */
+.flower-farming .custom-hero .Hero-text-flower-farming {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 53px !important;
+  color: #ffd939 !important;
+  line-height: 48px;
+  font-style: italic;
+  text-shadow: 0em 0.1em 0.1em rgba(0, 0, 0, 0.4);
+}
+
+.flower-farming .custom-hero .iframe-wrapper {
+  margin-bottom: 0;
+}
+
+.flower-farming .custom-hero .rich-text__buttons {
+  display: inline;
+}
+
+.flower-farming .custom-hero .button {
+  margin-right: 3%;
+}
+
+.flower-farming .faq-section-1 .faq-container {
+  background-position: right 0px top;
+  background-image: url(/cdn/shop/files/upper-right.webp?v=1728992573&width=1500) !important;
+}
+
+.flower-farming .home-mb .image-with-text__text--caption {
+  color: #436904;
+  border-left: 3px solid #436904;
+}
+
+.flower-farming .review-block:before {
+  background-image: linear-gradient(
+    180deg,
+    rgba(116, 167, 48, 0.68) 0%,
+    rgba(67, 105, 4, 0.98) 64%
+  );
+}
+
+.flower-farming .multicolumn-card__info {
+  padding: 2.5rem;
+  background-color: white;
+}
+
+.flower-farming .multicolumn.background-primary .multicolumn-card {
+  background: white !important;
+}
+
+.flower-farming .course-timings .slider-mobile-gutter .animate--slide-in {
+  background-color: #ffffff;
+  border-radius: 50px 0 50px 0;
+  overflow: hidden;
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+  /* margin-right: 5.5%; */
+  max-width: 30%;
+}
+.flower-farming .course-timings .grid {
+  column-gap: 60px;
+  row-gap: 40px;
+}
+
+.flower-farming .course-timings .media--adapt {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 0 !important;
+  margin: 0 auto;
+}
+.flower-farming .course-timings .multicolumn-card__info {
+  /* padding: 20px !important; */
+}
+
+.flower-farming .course-timings .multicolumn-card {
+  color: #444444 !important;
+  line-height: 30px;
+  padding-top: 10px !important;
+  padding-right: 20px !important;
+  padding-bottom: 35px !important;
+  padding-left: 20px !important;
+  text-align: center;
+  /* max-width:550px; */
+}
+
+.flower-farming .course-timings .rte {
+  font-size: 17px;
+  color: #444444 !important;
+  line-height: 30px;
+
+  text-align: center;
+}
+
+.flower-farming .course-timings .course-timings-meta {
+  display: none;
+}
+.flower-farming .course-timings .title {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #436904 !important;
+  text-align: center;
+  position: relative;
+  margin: 0 250px;
+}
+
+.flower-farming .course-timings .title-wrapper-with-link {
+  margin-bottom: 20px;
+}
+.flower-farming .course-timings .course-timings-blk {
+  display: inline-block;
+}
+
+/* .custom-product .course-timings .h1{
+    font-size: 19px;
+    border-bottom-width: 4px;
+    border-bottom-color: #74A730;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    max-width: 800px;
+} */
+
+.flower-farming .course-timings .title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -9px;
+  width: 100%;
+  height: 4px;
+  background-color: #74a730;
+}
+
+.flower-farming .course-timings .button {
+  display: none;
+}
+
+.flower-farming .passion-with-flowers-multicolumn .embed-iframe {
+  background-color: #ffffff;
+  border-radius: 50px 0 50px 0;
+  overflow: hidden;
+  box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+}
+
+.flower-farming
+  .section-template--17752556798125__multicolumn_tChiFt-bg
+  .center {
+  text-align: left;
+}
+
+.flower-farming .flower-farming-video .multicolumn-card__info h2 {
+  text-align: left;
+}
+/* .flower-farming .lisa-ul {
+    list-style-type: none;
+    padding: 0;           
+    margin: 0;            
+} */
+
+.flower-farming .flower-farming-video ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.flower-farming .lisa-li {
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 15px;
+}
+
+.flower-farming .lisa-li:before {
+  content: "";
+  background-image: url(/cdn/shop/files/icon4.webp?v=1729065190);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.flower-farming .lisa-h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.flower-farming .lisa-text1 {
+  font-size: 16px;
+  font-family: Open Sans, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #666;
+  line-height: 1.4;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.flower-farming .home-img-txt .button--primary:last-child {
+  background-color: #436904 !important;
+  color: white !important;
+  margin-top: 25px;
+}
+
+.flower-farming .text-15 {
+  line-height: 21px;
+}
+
+.flower-farming .Course_time .course-timings-blk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flower-farming .Course_time .course-timings-blk h2 {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #0d3c00 !important;
+  line-height: 1.2em;
+}
+
+.flower-farming .Course_time .course-timings-blk .course-timings-meta {
+  margin-left: 20px;
+}
+
+.flower-farming
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.flower-farming
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  > * {
+  display: inline-flex;
+}
+.flower-farming
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #74a730;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #74a730;
+  color: white;
+}
+
+.flower-farming
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item
+  span {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.flower-farming
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item {
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.flower-farming .faq-section-2 .faq-button {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #74a730 !important;
+  line-height: 1.3em;
+}
+
+.flower-farming .faq-section-2 .faq-blk h2 {
+  color: #436904 !important;
+  font-size: 18px;
+  text-align: left;
+  margin: 0;
+  font-family: Open Sans, Arial, sans-serif;
+}
+.flower-farming .faq-section-2 {
+  padding-top: 0;
+}
+.flower-farming .faq-section-2 .faq-title .faq-button {
+  color: #74a730 !important;
+}
+.flower-farming .faq-section-2 .faq-wrap-item {
+  background-color: !important;
+  border: 1px solid #d9d9d9 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.flower-farming .faq-section-1 .faq-wrap-item {
+  background-color: #f4f5f0 !important;
+}
+/* .flower-farming .free .product-kajabi-embed h2,p{
+text-align:left !important;
+} */
+.flower-farming .free .product-kajabi-embed {
+  text-align: left !important;
+}
+
+/* ellen-frost */
+
+.ellen-frost
+  .hero-product
+  .image-with-text__content
+  > :first-child:is(.image-with-text__heading) {
+  text-transform: uppercase;
+  line-height: 32px;
+}
+.ellen-frost .hero-product h2 {
+  line-height: 53px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.ellen-frost .hero-product p {
+  color: #666666;
+  font-size: 19px;
+}
+.ellen-frost .hero-product .loox-top .loox-rating {
+  background: #fff;
+  position: absolute;
+  right: 0;
+  padding: 20px 30px;
+  border-radius: 50px 50px 0;
+  font-size: 20px;
+  bottom: 50px;
+  text-align: center;
+}
+.ellen-frost .hero-product {
+  background-image: linear-gradient(90deg, #fff 70%, #b9355d 70%) !important;
+}
+.ellen-frost .text-15 {
+  line-height: 21px;
+}
+.ellen-frost .review-block:before {
+  background-image: linear-gradient(
+    180deg,
+    rgba(242, 242, 242, 0.84) 0%,
+    #f2f2f2 63%
+  );
+}
+.ellen-frost .review-block .app-text h2 {
+  color: black;
+}
+.ellen-frost .home-mb .image-with-text__text--caption {
+  border-color: #d4a42a;
+  color: #d4a42a;
+}
+.ellen-frost .home-mb .image-with-text__text--caption {
+  color: #d4a42a;
+  border-left: 3px solid #d4a42a;
+}
+.ellen-frost .home-mb .media {
+  filter: saturate(0%);
+}
+.ellen-frost .home-mb .button {
+  color: black !important;
+}
+
+.ellen-frost .faq-title .faq-button {
+  color: #b9355d !important;
+}
+.ellen-frost .faq-wrap-item {
+  background-color: transparent !important;
+  border: 1px solid #d9d9d9 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+.ellen-frost .customlist-ul ul li {
+  position: relative;
+}
+
+.ellen-frost .customlist-ul ul li:before {
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/who.png?v=1729063214);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ellen-frost .customlist-ul .ul01 .li01:before {
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/bouquet.png?v=1729064590);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ellen-frost .flowerlist-ul-4.ul-flower-3 .rte ul li:before {
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/flower3.png?v=1729065933);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ellen-frost .flowerlist-ul-4.ul-flower-3 .rte ul li h4 {
+  font-family: "Abhaya Libre", serif;
+  font-size: 26px;
+}
+
+.ellen-frost .flowerlist-ul-4 {
+  background-image: linear-gradient(90deg, #fff 85%, #b9355d 85%) !important;
+}
+.ellen-frost .course-timings {
+  position: relative;
+  text-align: center !important;
+}
+
+.ellen-frost .course-timings .title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000 !important;
+  text-align: center !important;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+.ellen-frost .course-timings .title::after {
+  content: "";
+  position: absolute;
+  left: -22%;
+  bottom: -9px;
+  width: 150%;
+  height: 4px;
+  background-color: #b9355d;
+}
+.ellen-frost .course-timings .multicolumn-card__info h3 {
+  text-align: left !important;
+  font-size: 48px !important;
+  font-family: "Abhaya Libre", serif;
+  color: black;
+}
+.ellen-frost .course-timings .multicolumn-card__info p {
+  text-align: left !important;
+  line-height: 36px;
+  font-size: 19px;
+}
+.ellen-frost .New_section01 .multicolumn.background-primary .multicolumn-card {
+  background-color: white !important;
+}
+.ellen-frost .New_section01 .multicolumn.background-primary .multicolumn-card {
+  background: none !important;
+}
+.ellen-frost .Course_time .course-timings-blk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ellen-frost .Course_time .course-timings-blk h2 {
+  margin: 0;
+  color: black;
+  font-size: 48px;
+}
+
+.ellen-frost .Course_time .course-timings-blk .course-timings-meta {
+  margin-left: 20px;
+}
+
+.ellen-frost .Course_time .course-timings-blk .course-timings-meta .flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.ellen-frost
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  > * {
+  display: inline-flex;
+}
+.ellen-frost
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #b9355d;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #b9355d;
+  color: white;
+}
+
+.ellen-frost
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item
+  span {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.ellen-frost
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item {
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.ellen-frost .faq-section-1 .faq-title .faq-button {
+  font-size: 30px;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.ellen-frost .hero-product .button {
+  color: red;
+  background-color: red;
+}
+
+.ellen-frost .home-mb-1 .image-with-text__content {
+  padding: 0 !important;
+}
+
+.ellen-frost .home-mb-1 .background-transparent {
+  color: #000;
+}
+
+.ellen-frost .home-mb-1 .image-with-text__text--caption {
+  color: #d4a418;
+  border-left: 3px solid #d4a418;
+  padding-left: 20px;
+
+  font-family: "Merriweather Sans", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 18px;
+  text-align: left;
+  border-width: 3px;
+  border-color: #d4a418;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.ellen-frost .home-mb-1 .inline-richtext {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000 !important;
+  line-height: 1.2em;
+  text-align: left;
+}
+.ellen-frost .home-mb-1 .image-with-text__text--caption {
+  /* margin: 20px 0 30px;
+    border-left: 5px solid; */
+}
+
+.ellen-frost .home-mb-1.image-with-text__text {
+  font-size: 19px;
+}
+
+/* flower-farming-school-online-growing-cut-flower-crops-in-hoops-and-greenhouses-- page styles  */
+
+.steve-gretel-adams .hero-product {
+  background-image: linear-gradient(90deg, #fff 70%, #2a718e 70%) !important;
+}
+
+.steve-gretel-adams .hero-product p {
+  color: #666666;
+  font-size: 19px;
+  line-height: 29px;
+  font-weight: 600;
+}
+/* .steve-gretel-adams .hero-product .image-with-text__heading:nth-of-type(1) {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #000000 !important;
+}
+.steve-gretel-adams .hero-product .image-with-text__heading:nth-of-type(2) {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 2.8em;
+  color: #00718e !important;
+  text-shadow: 0em 0.1em 0.1em RGBA(255, 255, 255, 0);
+}
+.steve-gretel-adams .hero-product .image-with-text__heading:nth-of-type(3) {
+  font-weight: 510;
+  font-style: italic;
+  font-size: 24px;
+  color: #000000 !important;
+  font-family: "Open Sans", Arial, sans-serif;
+} */
+
+.steve-gretel-adams .hero-product.image-with-text__text {
+  line-height: 1.5em;
+  font-weight: 600;
+  font-size: 19px;
+  line-height: 1.5em;
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  margin-top: 15px !important;
+}
+
+.steve-gretel-adams .hero-product .button--primary:nth-of-type(2) {
+  background-color: #00718e !important;
+  color: white !important;
+  width: auto !important;
+}
+
+.steve-gretel-adams .video-section .title {
+  font-size: 26px;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #333333;
+}
+
+.steve-gretel-adams .review-block:before {
+  background-image: linear-gradient(
+    180deg,
+    rgba(242, 242, 242, 0.84) 0%,
+    #f2f2f2 63%
+  );
+}
+
+.steve-gretel-adams .review-block .app-text {
+  --heading-color: #000;
+  text-align: center;
+}
+
+.steve-gretel-adams .home-mb .media {
+  filter: saturate(0%);
+}
+
+.steve-gretel-adams .home-mb .background-transparent {
+  color: #000;
+}
+
+.steve-gretel-adams .home-mb .image-with-text__text--caption {
+  color: #d4a418;
+  border-left: 3px solid #d4a418;
+}
+
+.steve-gretel-adams .home-mb .button {
+  color: black !important;
+}
+
+.steve-gretel-adams .home-mb .image-with-text__heading {
+  color: #000000 !important;
+}
+
+.steve-gretel-adams .ul-check ul {
+  list-style-type: none; /* Remove default list styles */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.steve-gretel-adams .steve-adam1 ul li {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/gh.webp?v=1729087417);
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 30px 30px;
+  margin-top: 20px;
+}
+
+.steve-gretel-adams .steve-adam2 ul li {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  background-image: url('https://cdn.shopify.com/s/files/1/0618/0500/2925/files/hoop.webp?v=1729151518');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 30px 30px;
+  margin-top: 20px;
+}
+
+.steve-gretel-adams .steve-adam3 ul li {
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  background-image: url('https://cdn.shopify.com/s/files/1/0618/0500/2925/files/gh3.webp?v=1729151518');
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: 30px 30px;
+}
+
+.steve-gretel-adams .ul-check ul li h4 {
+  font-weight: 500;
+  font-size: 26px;
+  margin: 10px 0;
+  padding-left: 10px;
+  color: rgb(51, 51, 51);
+  line-heighteigh: 31px;
+}
+
+.steve-gretel-adams .flowerlist-ul-4 ul li:before {
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/flowers.webp?v=1729153481);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.steve-gretel-adams .home-img-txt .content-container .button:last-of-type {
+  color: #ffffff !important;
+  border-radius: 0px;
+  font-size: 16px;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  background-color: #00718e !important;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.steve-gretel-adams .home-img-txt .content-container h2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.steve-gretel-adams .text-15 {
+  line-height: 21px;
+}
+
+.steve-gretel-adams .Course_time .course-timings-blk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.steve-gretel-adams .Course_time .course-timings-blk h2 {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000 !important;
+  line-height: 1.2em;
+}
+
+.steve-gretel-adams .Course_time .course-timings-blk .course-timings-meta {
+  margin-left: 20px;
+}
+
+.steve-gretel-adams
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.steve-gretel-adams.Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  > * {
+  display: inline-flex;
+}
+.steve-gretel-adams
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #00718e;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #00718e;
+  color: white;
+}
+
+.steve-gretel-adams
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item
+  span {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.steve-gretel-adams
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item {
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.steve-gretel-adams .faq-section-1 .faq-button {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 30px !important;
+
+  line-height: 1.3em;
+}
+
+.steve-gretel-adams .faq-section-1 {
+  padding-top: 0;
+}
+
+.steve-gretel-adams .faq-section-1 .faq-wrap {
+  color: #666666;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 500px;
+}
+
+.steve-gretel-adams .flowerlist-ul-4 {
+  background-image: linear-gradient(90deg,#00718e 15%,#f2f2f2 15%),
+    url(/cdn/shop/files/peony1_1.webp?v=1728456276) !important;
+}
+
+.steve-gretel-adams .flowerlist-ul-4 .image-with-text__media {
+  border-radius: 2px !important;
+}
+
+.steve-gretel-adams
+  .multicolumn-list__item
+  .media--adapt
+  .multicolumn-card__image {
+  width: 100%;
+  height: 100%;
+}
+
+.steve-gretel-adams
+  .steve-bonus-cols
+  .multicolumn-list__item
+  .media--adapt
+  .multicolumn-card__image {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.steve-gretel-adams .steve-bonus-cols .multicolumn-card__info {
+  background-color: white;
+}
+
+.steve-gretel-adams .steve-bonus-cols .multicolumn-list {
+  padding-top: 20px;
+  /* background-color:white; */
+}
+
+.steve-gretel-adams .steve-bonus-cols .animate--slide-in {
+  background-color: white;
+}
+
+.steve-gretel-adams .multicolumn.background-primary .multicolumn-card {
+  background: white;
+}
+
+.steve-gretel-adams .home-mb-1 .image-with-text__content {
+  padding: 0 !important;
+}
+
+.steve-gretel-adams .home-mb-1 .background-transparent {
+  color: #000;
+}
+
+.steve-gretel-adams .home-mb-1 .image-with-text__text--caption {
+  color: #d4a418;
+  border-left: 3px solid #d4a418;
+  padding-left: 20px;
+
+  font-family: "Merriweather Sans", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 18px;
+  text-align: left;
+  border-width: 3px;
+  border-color: #d4a418;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.steve-gretel-adams .home-mb-1 .inline-richtext {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000 !important;
+  line-height: 1.2em;
+  text-align: left;
+}
+.steve-gretel-adams .home-mb-1 .image-with-text__text--caption {
+  /* margin: 20px 0 30px;
+    border-left: 5px solid; */
+}
+
+.steve-gretel-adams .home-mb-1.image-with-text__text {
+  font-size: 19px;
+}
+
+.steve-custom-block .course-timings-blk {
+  text-align: center;
+  /* position: relative;  */
+}
+.steve-custom-block .course-timings-blk .title {
+  font-weight: 700 !important;
+  font-size: 48px !important;
+  color: #000000 !important;
+  text-align: center !important;
+  display: inline-block;
+  position: relative;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.steve-custom-block .course-timings-blk .title::after {
+  content: "";
+  position: absolute;
+  left: 50%; /* Start the line at the center */
+  transform: translateX(-50%); /* Shift the line to center it under the text */
+  bottom: -9px; /* Adjust to control the distance from the text */
+  width: 170%; /* Adjust width to extend slightly beyond the text */
+  height: 4px; /* Line thickness */
+  background-color: #2a718e; /* Line color */
+}
+
+.steve-gretel-adams .section-template--17757054566573__video_XqGADW-padding {
+  padding-top: 36px;
+  padding-bottom: 36px;
+  text-align: center;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+  font-size: 26px;
+  line-height: 26px;
+}
+.steve-gretel-adams .faq-section-1 .faq-wrap-item {
+  background-color: !important;
+  border: 1px solid #d9d9d9 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+/* .steve-gretel-adams .faq-section-2 .faq-title .faq-button {
+color:#74a730 !important;
+}
+
+
+.steve-gretel-adams .faq-section-1 .faq-wrap-item{
+background-color: #F4F5F0!important;
+
+} */
+
+/* bulbs-perennials-woodies */
+
+.bulbs-perennials-woodies
+  .hero-product
+  .image-with-text__content
+  > :first-child:is(.image-with-text__heading) {
+  text-transform: uppercase;
+  line-height: 28px;
+}
+.bulbs-perennials-woodies .hero-product p {
+  color: #666666;
+  font-size: 19px;
+  line-height: 29px;
+  font-weight: 600;
+}
+.bulbs-perennials-woodies .hero-product h2 {
+  line-height: 53px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.bulbs-perennials-woodies .hero-product {
+  position:relative;
+  background-image: linear-gradient(90deg, #fff 70%, #4267b3 70%) !important;
+}
+.bulbs-perennials-woodies .customlist-ul ul li {
+  position: relative;
+  padding-left: 90px;
+}
+.bulbs-perennials-woodies .customlist-ul ul li:before {
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/farmer.png?v=1729158450) !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bulbs-perennials-woodies .ul-check ul li {
+  background-image: none;
+}
+.bulbs-perennials-woodies .customlist-ul .ul01 .li01:before {
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/leaf.png?v=1729159382) !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bulbs-perennials-woodies .customlist-ul .ul01-1 .li01-1:before {
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/blub.png?v=1729160982) !important;
+  background-size: 75px;
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bulbs-perennials-woodies .customlist-ul .ul01-1 .li01-2:before {
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/per.png?v=1729161440) !important;
+  background-size: 75px;
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bulbs-perennials-woodies .customlist-ul .ul01-1 .li01-3:before {
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/woody.png?v=1729161563) !important;
+  background-size: 75px;
+  background-repeat: no-repeat;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bulbs-perennials-woodies .customlist-ul .ul01-1 h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  padding-bottom: 2%;
+  padding: 10px 0;
+}
+
+.bulbs-perennials-woodies .flowerlist-ul-4 {
+  background-image: linear-gradient(90deg, #4267b3 15%, #fff0 15%) !important;
+}
+.bulbs-perennials-woodies .flowerlist-ul-4 .ul02 .li02:before {
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/icon_3.png?v=1729163534);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: -1%;
+  left: 0;
+}
+
+.bulbs-perennials-woodies .faq-wrap-item {
+  background-color: transparent !important;
+  border: 1px solid #d9d9d9 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+.bulbs-perennials-woodies .faq-title .faq-button {
+  color: #4267b3 !important;
+}
+
+.bulbs-perennials-woodies .review-block:before {
+  background-image: linear-gradient(
+    180deg,
+    rgba(242, 242, 242, 0.84) 0%,
+    #f2f2f2 63%
+  );
+}
+.bulbs-perennials-woodies .review-block .app-text h2 {
+  color: black;
+}
+
+/* .bulbs-perennials-woodies .home-img-txt .image-with-text__content>:first-child:is(.image-with-text__heading), .image-with-text__text--caption+.image-with-text__heading, .image-with-text__text--caption:first-child{
+text-transform:uppercase;
+} */
+.bulbs-perennials-woodies .text-15 {
+  line-height: 21px;
+}
+.bulbs-perennials-woodies .home-mb .media {
+  filter: saturate(0%);
+}
+.bulbs-perennials-woodies .home-mb .image-with-text__text--caption {
+  color: #d4a42a;
+  border-left: 3px solid #d4a42a;
+}
+
+.bulbs-perennials-woodies .home-mb .button {
+  color: black !important;
+}
+.bulbs-perennials-woodies .course-timings .multicolumn-card__info h3 {
+  text-align: left !important;
+  font-size: 48px !important;
+  font-family: "Abhaya Libre", serif;
+  color: black;
+}
+.bulbs-perennials-woodies .course-timings .multicolumn-card__info p {
+  text-align: left !important;
+  line-height: 36px;
+  font-size: 19px;
+}
+
+.bulbs-perennials-woodies
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta {
+  margin-left: 20px;
+}
+
+.bulbs-perennials-woodies
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.bulbs-perennials-woodies
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  > * {
+  display: inline-flex;
+}
+.bulbs-perennials-woodies
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #4267b3;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #4267b3;
+  color: white;
+}
+
+.bulbs-perennials-woodies
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item
+  span {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.bulbs-perennials-woodies
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item {
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.bulbs-perennials-woodies .Course_time .course-timings-blk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bulbs-perennials-woodies .Course_time .course-timings-blk h2 {
+  margin: 0;
+  color: black;
+  font-size: 48px;
+}
+.bulbs-perennials-woodies .faq-section-1 .faq-title .faq-button {
+  font-size: 30px;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 700;
+  line-height: 39px;
+}
+
+.bulbs-perennials-woodies .course-timings {
+  position: relative;
+  text-align: center !important;
+}
+.bulbs-perennials-woodies .course-timings .rte ul li {
+  text-align: left;
+  list-style-type: disc;
+}
+
+.bulbs-perennials-woodies .course-timings .title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000 !important;
+  text-align: center !important;
+  display: inline-block;
+  position: relative;
+}
+
+.bulbs-perennials-woodies .course-timings .title::after {
+  content: "";
+  position: absolute;
+  left: -22%;
+  bottom: -9px;
+  width: 150%;
+  height: 4px;
+  background-color: #4267b3;
+}
+
+.bulbs-perennials-woodies .Video_section01 {
+  background-position: right 0px bottom 0px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(242, 242, 242, 0.67) 0%,
+      rgba(242, 242, 242, 0.95) 97%
+    ),
+    url() !important;
+}
+
+.bulbs-perennials-woodies .home-img-txt {
+  display: flex;
+  justify-content: center; /* Centers the button horizontally */
+}
+
+.bulbs-perennials-woodies .home-img-txt .button--primary:last-child {
+  background-color: #4267b3 !important;
+  color: white !important;
+  width: auto !important;
+  margin: 25px auto;
+}
+
+.bulbs-perennials-woodies .home-mb-1 .image-with-text__content {
+  padding: 0 !important;
+}
+
+.bulbs-perennials-woodies .home-mb-1 .background-transparent {
+  color: #000;
+}
+
+.bulbs-perennials-woodies .home-mb-1 .image-with-text__text--caption {
+  color: #d4a418;
+  border-left: 3px solid #d4a418;
+  padding-left: 20px;
+
+  font-family: "Merriweather Sans", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 18px;
+  text-align: left;
+  border-width: 3px;
+  border-color: #d4a418;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.bulbs-perennials-woodies .home-mb-1 .inline-richtext {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000 !important;
+  line-height: 1.2em;
+  text-align: left;
+}
+.bulbs-perennials-woodies .home-mb-1 .image-with-text__text--caption {
+  /* margin: 20px 0 30px;
+    border-left: 5px solid; */
+}
+
+.bulbs-perennials-woodies .home-mb-1.image-with-text__text {
+  font-size: 19px;
+}
+
+.bulbs-perennials-woodies .hero-product .button--primary:nth-of-type(2) {
+  background-color: #4267b3 !important;
+  color: white !important;
+
+  width: auto !important;
+}
+/*farmer-florist-school-online-the-wedding-process-with-jennie-love/ --page styles   */
+
+.wedding-jennie-love .hero-product {
+  background-image: linear-gradient(90deg, #ffffff 70%, #c36666 70%),
+    url(/cdn.shopify.com/s/files/1/0618/0500/2925/files/flowers4.png?v=1729233923) !important;
+}
+
+.wedding-jennie-love .hero-product .image-with-text__content {
+  font-size: 19px;
+  line-height: 1.9em;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 600;
+}
+
+/* .wedding-jennie-love .hero-product-jennie-love-tab1 .element.style{
+   font-size: 53px;
+    line-height: 53px;
+    font-family:'Abhaya Libre', Georgia, "Times New Roman", serif;
+    font-weight: 700;
+}
+ */
+
+/* .wedding-jennie-love .hero-product .image-with-text__heading:nth-of-type(1) {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 28px;
+  color: #000000 !important;
+}
+.wedding-jennie-love .hero-product .image-with-text__heading:nth-of-type(2) {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700 !important;
+  font-size: 53px;
+  color: #c36666 !important;
+  text-shadow: 0em 0.1em 0.1em RGBA(255, 255, 255, 0);
+  margin-top: 0;
+}
+.wedding-jennie-love .hero-product .image-with-text__heading:nth-of-type(3) {
+  font-weight: 600;
+  font-style: italic;
+  font-size: 24px;
+  color: #000000 !important;
+  font-family: Open Sans, Arial, sans-serif;
+  margin-top: 0;
+}
+ */
+.wedding-jennie-love .hero-product .button--primary:nth-of-type(2) {
+  background-color: #c36666 !important;
+  color: white !important;
+
+  width: auto !important;
+}
+
+.wedding-jennie-love .asp-sea-head {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-size: 26px;
+  line-height: 28.9px;
+  text-align: left;
+  letter-spacing: normal;
+  color: black !important;
+  margin-top: 2px;
+  /* padding-bottom:20px !important; */
+  font-weight: 700;
+}
+
+.wedding-jennie-love .ul-check ul li h4 {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-size: 26px;
+  line-height: 31.2px;
+  text-align: left;
+  letter-spacing: normal;
+  font-weight: 500 !important;
+  color: #333 !important;
+  margin-top: 2px;
+  margin-bottom: 13px;
+}
+
+/* 111 */
+
+.wedding-jennie-love .home-mb .image-with-text__heading {
+  color: #000000 !important;
+}
+
+.wedding-jennie-love
+  .home-img-txt
+  .content-container
+  .rich-text__buttons
+  .button:nth-of-type(2) {
+  color: #ffffff !important;
+
+  width: 50%;
+  margin: 20px auto;
+}
+
+.wedding-jennie-love .text-15 {
+  line-height: 21px;
+}
+
+.wedding-jennie-love .Course_time .course-timings-blk {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wedding-jennie-love .Course_time .course-timings-blk h2 {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000 !important;
+  line-height: 1.2em;
+}
+
+.wedding-jennie-love .Course_time .course-timings-blk .course-timings-meta {
+  margin-left: 20px;
+}
+
+.wedding-jennie-love
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  gap: 20px;
+}
+
+.wedding-jennie-love.Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  > * {
+  display: inline-flex;
+}
+.wedding-jennie-love
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #c36767;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 20px;
+  background-color: #c36767;
+  color: white;
+  line-height: 15px;
+}
+
+.wedding-jennie-love
+  .Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item
+  span {
+  font-size: 64px;
+  font-weight: bold;
+}
+
+.wedding-jennie-love.Course_time
+  .course-timings-blk
+  .course-timings-meta
+  .flex-row
+  .item {
+  font-size: 15px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.wedding-jennie-love .flowerlist-ul-4 .image-with-text__media {
+  border-radius: 2px !important;
+}
+
+.wedding-jennie-love .home-mb-1 .image-with-text__content {
+  padding: 0 !important;
+}
+
+.wedding-jennie-love .home-mb-1 .background-transparent {
+  color: #000;
+}
+
+.wedding-jennie-love .home-mb-1 .image-with-text__text--caption {
+  color: #d4a418;
+  border-left: 3px solid #d4a418;
+  padding-left: 20px;
+
+  font-family: "Merriweather Sans", Helvetica, Arial, Lucida, sans-serif;
+  font-size: 18px;
+  text-align: left;
+  border-width: 3px;
+  border-color: #d4a418;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.wedding-jennie-love .home-mb-1 .inline-richtext {
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000 !important;
+  line-height: 1.2em;
+  text-align: left;
+}
+.wedding-jennie-love .home-mb-1 .image-with-text__text--caption {
+  /* margin: 20px 0 30px;
+    border-left: 5px solid; */
+}
+
+.wedding-jennie-love .home-mb-1.image-with-text__text {
+  font-size: 19px;
+}
+.wedding-jennie-love .faq-section-1 .faq-wrap-item {
+  background-color: !important;
+  border: 1px solid #d9d9d9 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+
+.wedding-jennie-love .faq-section-1 .faq-title .faq-button {
+  font-size: 30px;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 700;
+  line-height: 39px;
+  color: #c36767 !important;
+}
+.wedding-jennie-love .faq-section-1 {
+  padding-top: 0;
+}
+
+.wedding-jennie-love .course-timings .multicolumn-card__info h3 {
+  text-align: left !important;
+  font-size: 48px !important;
+  font-family: "Abhaya Libre", serif;
+  color: black;
+}
+.wedding-jennie-love .course-timings .multicolumn-card__info p {
+  text-align: left !important;
+  line-height: 36px;
+  font-size: 19px;
+}
+.wedding-jennie-love .course-timings .title {
+  font-weight: 700;
+  font-size: 48px;
+  color: #000000 !important;
+  text-align: center !important;
+  display: inline-block;
+  position: relative;
+}
+
+.wedding-jennie-love .course-timings .title::after {
+  content: "";
+  position: absolute;
+  left: -22%;
+  bottom: -9px;
+  width: 150%;
+  height: 4px;
+  background-color: #b9355d;
+}
+.wedding-jennie-love .course-timings {
+  position: relative;
+  text-align: center !important;
+}
+
+.wedding-jennie-love .review-block:before {
+  background-image: linear-gradient(
+    180deg,
+    rgba(242, 242, 242, 0.84) 0%,
+    #f2f2f2 63%
+  );
+}
+
+.wedding-jennie-love .ul-check .asp-sea-listitems .asp-sea-itm h4 {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 1.2em;
+  margin: 0;
+  color: #333;
+  font-family: Abhaya Libre, Georgia, Times New Roman, serif;
+}
+
+.wedding-jennie-love .faq-section-2 .faq-wrap-item {
+  background-color: transparent !important;
+  border: 1px solid #d9d9d9 !important;
+  border-top: none !important;
+  border-left: none !important;
+  border-right: none !important;
+}
+.wedding-jennie-love .review-block .app-text h2 {
+  color: black;
+}
+.wedding-jennie-love .home-mb .media {
+  filter: saturate(0%);
+}
+.wedding-jennie-love .home-mb .image-with-text__text--caption {
+  color: #d4a42a;
+  border-left: 3px solid #d4a42a;
+}
+/* .wedding-jennie-love .image-with-text__content>:first-child:is(.image-with-text__heading){
+text-transform:uppercase;
+} */
+.wedding-jennie-love .home-mb .button {
+  color: black !important;
+}
+
+.wedding-jennie-love .ul-check-1 ul li {
+  position: relative; /* Make the list item a positioning context */
+  margin-bottom: 13px;
+}
+
+.wedding-jennie-love .ul-check-1 ul li :before {
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/flowers.png?v=1729239526) !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.wedding-jennie-love .ul-check-2 ul li {
+  position: relative; /* Make the list item a positioning context */
+  font-weight: 500;
+}
+
+.wedding-jennie-love .ul-check-2 ul li :before {
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/event.png?v=1729247270) !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.wedding-jennie-love .ul-check-3 ul li {
+  position: relative; /* Make the list item a positioning context */
+}
+
+.wedding-jennie-love .ul-check-3 ul li :before {
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/planner.png?v=1729247273) !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.wedding-jennie-love .ul-check ul li {
+  background-image: none;
+}
+
+/* .wedding-jennie-love .home-img-txt .rich-text__buttons:nth-child(2) .button {
+  width: 50% !important;
+  color:white !important;
+} */
+.wedding-jennie-love .home-img-txt .content-container .button:last-of-type {
+  color: #ffffff !important;
+  border-radius: 0px;
+  font-size: 16px;
+  font-weight: 700 !important;
+  text-transform: uppercase !important;
+  background-color: #c36666 !important;
+  width: 50%;
+  margin: 20px auto;
+}
+
+.wedding-jennie-love .flowerlist-ul-4 {
+  background-image: linear-gradient(
+    90deg,
+    #c36666 15%,
+    rgba(255, 255, 255, 0) 15%
+  ) !important;
+}
+
+.wedding-jennie-love .flowerlist-ul-4 .custom-html ul li h4 {
+  font-weight: 500 !important;
+  font-size: 26px !important;
+  line-height: 31px;
+  color: #333;
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+}
+
+/* forcing-glorious */
+.forcing-glorious .customlist-ul ul li h4 {
+  color: #466c13;
+}
+.forcing-glorious .customlist-ul ul li {
+  position: relative;
+}
+
+.forcing-glorious .customlist-ul ul li:before {
+  content: "";
+  background-image: url("https://cdn.shopify.com/s/files/1/0618/0500/2925/files/square-check-regular-green_2.svg?v=1729236163");
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 0%;
+  left: 0;
+}
+
+.forcing-glorious .custom-hero .custom-html h1 strong {
+  font-size: 51px;
+  font-family: "Abhaya Libre", serif;
+  font-weight: 700;
+  line-height: 51px;
+  font-style: italic;
+}
+
+.forcing-glorious .flowerlist-ul-4 {
+  background-image: linear-gradient(90deg, #1b3c00 15%, #fff0 15%) !important;
+}
+
+.forcing-glorious .flowerlist-ul-4 .custom-html ul li {
+  position: relative;
+}
+
+.forcing-glorious .flowerlist-ul-4 .custom-html ul li:before {
+  content: "";
+  background-image: url(https://cdn.shopify.com/s/files/1/0618/0500/2925/files/icon_3_e94d9274-34a2-4733-bd96-3470fa261b68.png?v=1729506416) !important;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.forcing-glorious .course-timings .course-timings-meta {
+  display: none;
+}
+
+.forcing-glorious .course-timings .title {
+  margin: 0 auto;
+  position: relative;
+  font-family: "Abhaya Libre", Georgia, "Times New Roman", serif;
+  font-weight: 700;
+  font-size: 48px;
+  color: #6c040b !important;
+  /* text-align: center; */
+}
+
+.forcing-glorious .course-timings .title::after {
+  content: "";
+  position: absolute;
+  left: -10%;
+  bottom: -9px;
+  width: 120%;
+  height: 4px;
+  background-color: #6c040b;
+}
+
+.forcing-glorious.course-timings .course-timings-blk {
+  margin-bottom: 50px !important;
+}
+
+.forcing-glorious .course-timings .multicolumn-card__info blockquote {
+  padding: 0;
+
+  background-color: #6d1813;
+
+  width: 100%;
+  text-transform: none;
+  max-width: 100%;
+}
+
+.forcing-glorious .flowerlist-ul-4 .custom-html ul li {
+  color: #6b6b6b;
+}
+
+.forcing-glorious .home-mb .media {
+  filter: brightness(0) invert(1);
+}
+
+.forcing-glorious .home-mb .background-transparent {
+  color: #fff;
+}
+
+.forcing-glorious .home-mb .image-with-text__text--caption {
+  color: #fff;
+  border-left: 3px solid #fff;
+}
+
+.forcing-glorious .home-mb .button {
+  color: black !important;
+}
+
+.forcing-glorious .home-mb .image-with-text__text {
+  color: #fff;
+}
+
+.forcing-glorious .customlist-ul .custom-html ul li {
+  color: #6b6b6b;
+}
+
+.forcing-glorious .faq-container h2 {
+  color: white !important;
+}
+
+.forcing-glorious .text-15 {
+  line-height: 21px;
+}
+
+.forcing-glorious .review-block:before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: linear-gradient(
+    180deg,
+    rgba(70, 108, 19, 0.65) 0%,
+    #173c00 79%
+  ) !important;
+}

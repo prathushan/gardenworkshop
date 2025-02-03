@@ -1,0 +1,268 @@
+{%- comment -%}
+  Section published at https://sections.design/blogs/shopify/faq-rich-snippets-section
+  Get the latest version: https://github.com/mirceapiturca/Sections/tree/master/FAQ
+{%- endcomment -%}
+
+{%- comment -%} ---------------- THE CSS ---------------- {%- endcomment -%}
+{{ 'component-faq.css' | asset_url | stylesheet_tag }}
+{%- assign id = '#shopify-section-' | append: section.id -%}
+
+{% style %}
+  {{ id }} {
+    background: {{ section.settings.background_color }};
+    --panel-bg: {{ section.settings.panel_color }};
+    --border-color: {{ section.settings.border_color }};
+    --question-color: {{ section.settings.q_color }};
+    --answer-color: {{ section.settings.a_color }};
+
+    {%- assign min = section.settings.q_size_small -%}
+    {%- assign max = section.settings.q_size_large -%}
+    {%- assign min_rem = min | append: 'rem' -%}
+    {%- assign max_rem = max | append: 'rem' -%}
+    --title-font-size: clamp({{ min_rem }}, calc({{ min_rem }} + ({{ max }} - {{ min }}) * ((100vw - 25rem) / (64 - 25))), {{ max_rem }});
+  }
+{% endstyle %}
+
+<style></style>
+
+{%- comment -%} ---------------- THE MARKUP ---------------- {%- endcomment -%}
+
+<div class="faq-container {{ section.settings.custom_class }}" style="margin-bottom:{{ section.settings.margin_bottom }}rem;">
+  <div class="page-width" id="{{ section.settings.faq_heading | handle }}">
+    {%- if product.template_suffix == blank and section.settings.faq_heading != blank %}
+      <h2>{{ section.settings.faq_heading }}</h2>
+    {%- endif -%}
+    <div class="faq-sec">
+      {% if section.settings.faq_image != blank %}
+         <div class="faq-img">
+          {{ section.settings.faq_image | image_url: width:auto | image_tag }}
+         </div>
+      {% endif %}
+    <div class="faq-blk">
+      {%- if product.template_suffix != blank and section.settings.faq_heading != blank %}
+      <h2>{{ section.settings.faq_heading }}</h2>
+    {%- endif -%}
+      {%- for block in section.blocks -%}
+        {%- if block.settings.title != blank and block.settings.content != blank -%}
+          {%- if block.settings.checkbox_expanded == true -%}
+            {%- assign expanded = 'true' -%}
+            {%- assign hidden = '' -%}
+          {%- else -%}
+            {%- assign expanded = 'false' -%}
+            {%- assign hidden = 'hidden' -%}
+          {%- endif -%}
+          <div class="faq-wrap-item">
+            <h3 class="faq-title m-0 p-0" data-faq-trigger="{{ block.id }}" {{ block.shopify_attributes }}>
+              <button
+                class="faq-button flex items-center justify-between w-full text-left m-0 p-4 cursor-pointer"
+                data-faq-button="{{ block.id }}"
+                aria-expanded="{{ expanded }}"
+              >
+                <span>{{ block.settings.title }}</span>
+                <svg class="faq-icon" viewBox="0 0 14 14" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                  <path class="faq-icon-minus" fill="currentColor" d="M8 0v14H6V0z"></path>
+                  <path fill="currentColor" d="M0 6h14v2H0z"></path>
+                </svg>
+              </button>
+            </h3>
+
+            <div class="faq-panel rte overflow-hidden custom-bg" data-faq-panel="{{ block.id }}" {{ hidden }}>
+              <div class="faq-wrap">{{ block.settings.content }}</div>
+            </div>
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+      </div>
+  </div>
+</div>
+
+{%- comment -%} ---------------- THE CONFIG ---------------- {%- endcomment -%}
+
+<script type="application/json" data-faq-config="{{ section.id }}">
+  {
+    "sectionId": {{ section.id | json }},
+    "blockIds": {{ section.blocks | map: 'id' | json }}
+  }
+</script>
+
+{%- comment -%} ---------------- THE SETTINGS ---------------- {%- endcomment -%}
+
+{% schema %}
+{
+  "name": "FAQ",
+  "class": "sd-faq",
+  "tag": "article",
+
+  "settings": [
+    {
+      "type": "header",
+      "content": "Rich schema"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_rich_schema",
+      "default": true,
+      "label": "Enable FAQ rich schema?"
+    },
+      {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom class"
+    },
+    {
+      "type": "text",
+      "label": "Heading",
+      "id": "faq_heading"
+    },
+    {
+      "type": "image_picker",
+      "id": "faq_image",
+      "label": "Product faq image"
+    },
+    {
+      "type": "header",
+      "content": "Dimensions"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "unit": "rem",
+      "label": "Margin top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "min": 0,
+      "max": 10,
+      "step": 0.1,
+      "unit": "rem",
+      "label": "Margin bottom",
+      "default": 0
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "border_color",
+      "label": "Border color",
+      "default": "#eeeeee"
+    },
+    {
+      "type": "color",
+      "id": "panel_color",
+      "label": "Panel color",
+      "default": "#fdfdfd"
+    },
+    {
+      "type": "header",
+      "content": "Question"
+    },
+    {
+      "type": "color",
+      "id": "q_color",
+      "label": "Question text color"
+    },
+    {
+      "type": "header",
+      "content": "Answer"
+    },
+    {
+      "type": "color",
+      "id": "a_color",
+      "label": "Answer text color"
+    }
+  ],
+
+  "blocks": [
+    {
+      "type": "faq",
+      "name": "FAQ",
+      "settings": [
+        {
+          "type": "checkbox",
+          "id": "checkbox_expanded",
+          "default": false,
+          "label": "Expanded?"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "FAQ title",
+          "default": "FAQ title"
+        },
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "FAQ content",
+          "default": "<p>FAQ content</p>"
+        }
+      ]
+    }
+  ],
+
+  "presets": [
+    {
+      "name": "FAQ"
+    }
+  ]
+}
+{% endschema %}
+
+{%- comment -%} ------------------ THE JS ----------------- {%- endcomment -%}
+
+<script src="{{ 'faq.js' | asset_url }}" defer></script>
+
+{%- comment -%} ---------------- THE NO-JS ---------------- {%- endcomment -%}
+
+<noscript>
+  <style>
+    #shopify-section-{{ section.id }} [hidden] { display: block }
+    .faq-icon { display: none }
+  </style>
+</noscript>
+
+{%- comment -%} ---------------- THE EDITOR ------------------ {%- endcomment -%}
+
+{%- if request.design_mode -%}
+  <script>
+    (function FAQThemeEditor(SectionsDesign) {
+      'use strict';
+
+      document.addEventListener('shopify:section:load', sectionLoad);
+      document.addEventListener('shopify:block:select', blockToggle);
+      document.addEventListener('shopify:block:deselect', blockToggle);
+
+      function sectionLoad(evt) {
+        var sectionId = evt.detail.sectionId;
+        var section =  SectionsDesign.faq[sectionId];
+
+        if (!section) return;
+        SectionsDesign.faq[sectionId] = section.init(sectionId);
+      }
+
+      function blockToggle(evt) {
+        var section = SectionsDesign.faq[evt.detail.sectionId];
+        if (!section) return;
+
+        var block = section.blocks[evt.detail.blockId];
+        if (!block) return;
+
+        evt.type === 'shopify:block:select' ? block.select() : block.deselect();
+      }
+
+    })(window.SectionsDesign = window.SectionsDesign || {});
+  </script>
+{%- endif -%}

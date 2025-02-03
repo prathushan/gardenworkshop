@@ -1,0 +1,37 @@
+<div class="product-tabs">
+  <div class="page-width">
+  <!-- Tab Links -->
+  <ul class="tab-links">
+    <li class="active"><a href="#tab1">Description</a></li>
+     {% if product.variants.first.weight != 0 %}
+    <li><a href="#tab2">Additional Information</a></li>
+        {% endif %}
+  </ul>
+
+  <!-- Tab Content -->
+  <div class="tab-content">
+    <div id="tab1" class="tab-pane active">
+      <p>{{ product.description }}</p>
+    </div>
+    
+    {% if product.variants.first.weight != 0 %}
+    <div id="tab2" class="tab-pane">
+      <p> Weight: {{ product.variants.first.weight | weight_with_unit }}</p>
+    </div>
+      {% endif %}
+  </div>
+</div>
+  </div>
+
+{% schema %}
+  {
+    "name": "Product tabs",
+    "settings": [],
+    "presets": [
+      {
+        "name": "Product tabs",
+        "category": "product"
+      }
+    ]
+  }
+{% endschema %}

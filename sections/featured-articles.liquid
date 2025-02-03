@@ -1,0 +1,34 @@
+{% assign tag = 'Seed Talk' %}
+
+<div class="tag-posts">
+  {% for article in blogs.podcast.articles %}
+    {% if article.tags contains tag %}
+      <div class="blog-article test">
+        <h2>
+          <a href="{{ article.url }}">{{ article.title }}</a>
+        </h2>
+        <p>{{ article.excerpt | strip_html | truncate: 150 }}</p>
+        <p><strong>From Blog:</strong> {{ blog.title }}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "Featured articles",
+  "settings": [
+    {
+      "type": "text",
+      "id": "tag",
+      "label": "Add tag handle"
+    }
+  ],
+    "presets": [
+  {
+    "name": "Featured articles",
+    "category": "article"
+  }
+]
+}
+{% endschema %}

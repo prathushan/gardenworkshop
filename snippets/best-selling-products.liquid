@@ -1,0 +1,13 @@
+  <div class="product-grid">
+    {% assign items = products %}
+    {% for product in items limit:limit %}
+      <div class="product-item">
+        <a href="{{ product.url }}">
+          <img width="300" height="300" loading="lazy" src="{{ product.featured_image | image_url: width: 300 }}" alt="{{ product.title }}">
+          <h3>{{ product.title }}</h3>
+          {% render 'loox-review', product: product %}
+          {% render 'price', product: product, price_class: '', show_compare_at_price: true %}
+        </a>
+      </div>
+    {% endfor %}
+  </div>

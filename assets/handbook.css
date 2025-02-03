@@ -1,0 +1,82 @@
+.handbook-hero .grid__item img {
+  width: 95%;
+  height: auto;
+}
+.handbook-hero .handbook-hero-cta {
+  width: calc(50% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+  max-width: calc(50% - var(--grid-desktop-horizontal-spacing) / 2);
+  background-size: 150px auto;
+  background-position: right -5% bottom 0px;
+  background-image: url("https://cdn.shopify.com/s/files/1/0618/0500/2925/files/4_634751b7-1026-41ad-9fe0-5a12f9164843.webp?v=1729057271");
+  background-color: #eaede1;
+  padding-top: 100px;
+  padding-right: 5%;
+  padding-bottom: 100px;
+  padding-left: 5%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.handbook-hero .grid__item:last-child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.handbook-hero {
+  gap: 0;
+  margin:0;
+}
+.handbook-hero .grid__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.handbook-hero h1 {
+  font-size:53px;
+  margin-bottom:10px;
+}
+.handbook-hero h3 {
+  font-size:26px;
+  font-weight:600;
+  font-family:'Open Sans', sans-serif;
+  margin: 0 0 25px;
+}
+.handbook-hero .price{
+      font-size: 26px;
+    font-weight: 500;
+    color: #74a730;
+}
+.handbook-hero .flex-row .product__info-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+.handbook-hero .quantity__label{
+      position: absolute;
+    opacity: 0;
+}
+.handbook-hero .bundler-target-element{
+  display:none;
+}
+.handbook-video .bgimg{
+  background-size: 10% auto;
+    background-position: left bottom 0px;
+}
+.handbook-video .iframe-wrapper{
+      max-width: 1080px;
+    margin: 0 auto;
+    width: 80%;
+}
+.col-flower-4 .page-width {
+    background-color: #eaede1;
+    border-radius: 30px 30px 0 0;
+    overflow: hidden;
+    box-shadow: 6px 6px 18px #00000021;
+    padding: 30px;
+}
+.col-flower-4 .media{
+    padding-bottom: 75px!important;
+}
+.cut-flower-handbook .course-include h2{
+  margin:auto auto 0px!important;
+}

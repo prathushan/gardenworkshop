@@ -1,0 +1,40 @@
+{% assign tag = 'Blog' %}
+
+<div class="blog-articles-by-tag">
+  <h2>Articles tagged with "{{ tag }}"</h2>
+
+  {% for blog in blogs %}
+    
+    {% assign articles_with_tag = blog.articles  %}
+    
+    {% if articles_with_tag.size > 0 %}
+      <h3>{{ blog.title }}</h3>
+      <ul>
+        {% for article in articles_with_tag %}
+          <li>
+            <a href="{{ article.url }}">
+              <h4>{{ article.title }}</h4>
+            </a>
+            <p>{{ article.excerpt | strip_html | truncate: 150 }}</p>
+            <p><small>Published on {{ article.published_at | date: "%B %d, %Y" }}</small></p>
+          </li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% else %}
+    <p>No articles found with the tag "{{ tag }}" in blog "{{ blog.title }}"</p>
+  {% endfor %}
+</div>
+
+{% schema %}
+  {
+    "name": "All blogs",
+    "settings": [],
+     "presets": [
+    {
+      "name": "All blogs",
+      "category": "blog"
+    }
+  ]
+  }
+{% endschema %}

@@ -1,0 +1,141 @@
+<div id="popup-section" class="popup-overlay" data-target="{{ section.settings.trigger }}">
+  <div class="popup-content">
+    <span class="popup-close">&times;</span>
+    <div class="popup-content-wrap">
+    <h2>{{ section.settings.popup_title }}</h2>
+    <p>{{ section.settings.popup_message }}</p>
+    </div>
+  </div>
+</div>
+
+<style>
+  /* Popup overlay style */
+  .popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    overflow-x: auto;
+    outline: none !important;
+    -webkit-backface-visibility: hidden !important;
+    backface-visibility: hidden !important;
+  }
+
+  /* Popup content style */
+  .popup-content {
+    position: relative;
+    background-color: {{ section.settings.colorbg }};
+    padding: 50px 20px;
+    margin: 15px auto;
+    width: 100%;
+    max-width: 50%;
+    border-radius: 10px;
+  }
+  .popup-content-wrap{
+    width:80%;
+    margin: auto;
+  }
+  .popup-content h2{
+    font-size: 26px;
+    color: #333;
+    padding-bottom: 10px;
+    line-height: 1em;
+    font-family:'Open Sans', sans-serif;
+    margin:0 0 15px;
+  }
+  /* Close button style */
+  .popup-close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 65px;
+    cursor: pointer;
+    font-weight: 100;
+    font-family: 'Abhaya Libre';
+  }
+</style>
+
+<script defer>
+// Get the popup and the trigger element
+var popup = document.querySelector("#popup-section");
+var trigger = document.querySelector('a[href="#{{ section.settings.trigger }}"]');
+
+// If the popup and trigger exist, proceed
+if (popup && trigger) {
+    var closeSpan = document.querySelector(".popup-close"); // Get the close button
+
+    // Function to open the popup
+    var openPopup = function(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        popup.style.display = "block"; // Show the popup
+    };
+
+    // Function to close the popup
+    var closePopup = function() {
+        popup.style.display = "none"; // Hide the popup
+    };
+
+    // Add click event to the trigger to open the popup
+    trigger.addEventListener("click", openPopup);
+
+    // Add click event to the close button
+    if (closeSpan) {
+        closeSpan.addEventListener("click", closePopup);
+    }
+
+    // Close popup if the user clicks outside the popup
+    window.addEventListener("click", function(event) {
+        if (event.target === popup) {
+            closePopup();
+        }
+    });
+}
+
+</script>
+
+{% schema %}
+{
+  "name": "Popup Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "trigger",
+      "label": "Trigger ID"
+    },
+     {
+      "type": "color",
+       "default": "#ffffff",
+      "id": "colorbg",
+      "label": "Section background"
+    },
+    {
+      "type": "text",
+      "id": "popup_title",
+      "label": "Popup Title",
+      "default": "Welcome to Our Store!"
+    },
+    {
+      "type": "richtext",
+      "id": "popup_message",
+      "label": "Popup Message",
+      "default": "<p>Subscribe to our newsletter to receive updates and special offers.</p>"
+    },
+    {
+      "type": "text",
+      "id": "popup_button_text",
+      "label": "Button Text",
+      "default": "Close"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Popup modal",
+      "category": "popup"
+    }
+  ]
+}
+{% endschema %}

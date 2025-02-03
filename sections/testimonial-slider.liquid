@@ -1,0 +1,113 @@
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+>
+<script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+{{ 'component-gallery.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'slider.js' | asset_url }}" defer="defer"></script>
+{%- liquid
+  assign fetch_priority = 'auto'
+  if section.index == 1
+    assign fetch_priority = 'high'
+  endif
+%}
+<div class="testi-blk {{ section.settings.custom_class }}">
+  <div class="page-width">
+    {% assign metaobject_handle = section.settings.handle %}
+    {% for field in shop.metaobjects[metaobject_handle].values %}
+      <div class="testi-blk-item">
+        {% if field.heading != blank %}
+        <h2>{{ field.heading }}</h2>
+        {% endif %}
+        <div class="testi-blk-slider">
+          {% assign slides = field.gallery.value %}
+          {% if slides %}
+            <!-- Slider main container -->
+            <div class="swiper" data-slides="{{ section.settings.slidesPerView }}" {% if section.settings.auto %}data-autoplay="2000" {% endif %}>
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                {% for slide in slides %}
+                  <div class="swiper-slide">
+                    <img
+                      loading="lazy"
+                      width="500"
+                      height="500"
+                      src="{{ slide | image_url: width: 450 }}"
+                      fetchpriority="{{ fetch_priority }}"
+                    >
+                  </div>
+                {% endfor %}
+              </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+              {% if section.settings.arrows %}
+                <div class="swiper-button-prev"><span></span></div>
+                <div class="swiper-button-next"><span></span></div>
+                {% endif %}
+              </div>
+          {% endif %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Photo gallery",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "custom_class",
+      "label": "Custom class"
+    },
+    {
+      "type": "text",
+      "id": "slidesPerView",
+      "label": "slidesPerView",
+      "default": "4"
+    },
+    {
+      "type": "checkbox",
+      "id": "arrows",
+      "label": "Show arrows",
+      "default":true
+    },
+    {
+      "type": "checkbox",
+      "id": "auto",
+      "label": "Autoplay",
+      "default":false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "testimonials",
+      "name": "Testimonials",
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "content",
+          "label": "Content",
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Title"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Testimonials",
+      "category": "image"
+    }
+  ]
+}
+{% endschema %}

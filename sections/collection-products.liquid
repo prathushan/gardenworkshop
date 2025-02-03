@@ -1,0 +1,116 @@
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{% style %}
+  .cat-products-wrap{
+    background-color: #f2f2f2;
+    border-radius: 10px 50px 50px 50px;
+    overflow: hidden;
+    padding: 20px;
+    margin-top: 15px;
+}
+  .cat-products-wrap ul li{
+    background-color: #e5e5e5;
+    padding:15px;
+    border-radius: 10px;
+  }
+  .cat-products-wrap a.button{
+    color:#fff!important;
+    border-radius: 44px!important;
+    background-color: #608c27;
+    padding: 0.3em 30px;
+    text-transform: none !important;
+        font-weight: 500 !important;
+    font-size: 18px;
+  }
+  .cat-products-wrap .card__heading{
+    font-family:'Open Sans', sans-serif;
+    font-size: 16px !important;
+    text-align: center !important;
+    font-weight: 600 !important;
+    color: #343434 !important;
+    padding: .5em 0;
+  }
+  .cat-products-wrap .card__information{
+    padding: 0;
+    text-align: center;
+  }
+  .cat-products-wrap .card-information{
+    text-align: center;
+  }
+  .cat-products-wrap .card__inner{
+    margin-bottom:9px;
+  }
+  .price{
+    color: #666 !important;
+    font-size: 14px;
+  }
+ .cat-products-wrap  ul{
+        --grid-desktop-horizontal-spacing: 30px;
+    --grid-desktop-vertical-spacing: 30px;
+       margin-top: 27px;
+  }
+{% endstyle %}
+<div class="cat-products">
+  <div class="page-width">
+    <div class="cat-products-wrap">
+      <script type="application/json">{{ section.settings.cat.products | json }}</script>
+      <a class="button" href="{{ section.settings.cat.url }}">{% if section.settings.label != blank  %}{{ section.settings.label }}{% else %}{{ section.settings.cat.title }}{% endif %}</a>
+      <div class="cat-products-grid">
+                   <ul
+              id="product-grid"
+              data-id="{{ section.id }}"
+              class="
+                grid product-grid grid--3-col-desktop"
+            >
+              {%- for product in section.settings.cat.products -%}
+                {% assign lazy_load = false %}
+                {%- if forloop.index > 2 -%}
+                  {%- assign lazy_load = true -%}
+                {%- endif -%}
+                <li
+                  class="grid__item{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                  {% if settings.animations_reveal_on_scroll %}
+                    data-cascade
+                    style="--animation-order: {{ forloop.index }};"
+                  {% endif %}
+                >
+                  {% render 'cat-product',
+                    card_product: product,
+                    media_aspect_ratio: section.settings.image_ratio,
+                    image_shape: section.settings.image_shape,
+                    show_secondary_image: section.settings.show_secondary_image,
+                    show_vendor: false,
+                    show_rating: true,
+                    lazy_load: lazy_load,
+                    skip_styles: true,
+                  %}
+                </li>
+              {%- endfor -%}
+            </ul>
+      </div>
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Collection products",
+   "class": "section",
+  "settings": [
+    {
+    "type": "collection",
+    "id": "cat",
+    "label": "Select collection"
+  },
+    {
+      "type": "text",
+      "id" : "label",
+      "label": "Custom button label"
+    }
+  ],
+    "presets": [
+      {
+        "name": "Collection products",
+        "category": "Custom"
+      }
+    ]
+}
+{% endschema %}

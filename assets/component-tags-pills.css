@@ -1,0 +1,23 @@
+ul.tag-pills{
+  list-style:none;
+  padding:0px;
+  margin:0;
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  justify-content:center;
+}
+ul.tag-pills li a{
+  border-radius: 25px;
+    overflow: hidden;
+      font-weight: 600;
+    color: #515151 !important;
+    background-color: #e8e8e8;
+    padding: 12px;
+  font-size:14px;
+  line-height:1;
+      display: block;
+}
+ul.tag-pills li {
+    flex: 0 0 auto;
+}
